@@ -28,6 +28,5 @@ class String
 
   def count_sentences
     self.split(/\z/).count
-    binding.pry 
   end
 end
